@@ -1,0 +1,41 @@
+@import url(general.css);
+.case-study h3 {
+  padding-bottom: 0.5rem;
+}
+
+.case-study li {
+  padding-bottom: 0.5rem;
+}
+
+.case-study .un-flex {
+  align-items: start;
+}
+.case-study-highlight {
+  height: 100%;
+  padding: 0.75rem;
+  background-color: var(--purple-dark);
+  color: var(--purple-lightest);
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.case-study {
+  padding-bottom: 2rem;
+}
+
+.success-img {
+  max-width: 70%;
+  padding: 2rem 0;
+}
+
+.success-img2 {
+  max-width: 100%;
+}
+
+h2 {
+  color: var(--purple-dark);
+}
+
+.section-border {
+  padding-bottom: 3rem;
+}
