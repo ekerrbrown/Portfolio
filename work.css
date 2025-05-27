@@ -1,0 +1,92 @@
+@import url(/general.css);
+
+.h2-sub {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.2rem 0;
+}
+
+.resume-img {
+  max-width: 40%;
+  margin: auto;
+}
+
+.hero-work .hero-container {
+  padding: 0px;
+}
+
+.resume-img-container {
+  display: flex;
+  max-width: 100%;
+}
+.work-date {
+  font-size: 1.25rem;
+}
+.hero {
+  height: auto;
+}
+
+.work-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-highlights p {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: var(--purple-dark);
+  color: var(--purple-lightest);
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.un-testimonial {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  align-self: center;
+}
+.un-img {
+  max-width: 100%;
+}
+
+.work-img {
+  max-width: 20%;
+}
+
+.work-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.work-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (max-width: 720px) {
+  .un-testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  .un-img {
+    max-width: 100%;
+  }
+
+  .resume-img-container {
+    display: none;
+  }
+}
